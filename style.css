@@ -798,7 +798,7 @@ height:32px;
     min-width:90%;
     padding:20px;
     
-    height:474px;
+    
 }
 
 .tf-mainhead{
@@ -891,7 +891,7 @@ height:32px;
 }
 
 .c-button{
-    
+    width:auto;
     position:relative;
     margin:0px;
     display:flex;
@@ -916,7 +916,7 @@ height:32px;
 .center-section{
     padding:320px 20px 20px;
     background-color:rgb(254,241,238);
-    height: 410px;
+    height: 380px;
     
     margin-right:-8px;
     padding-bottom:5px;
@@ -961,7 +961,7 @@ height:32px;
     font-family:normsbold;
     max-width:90%;
     margin-top:20px;
-    width:100%;
+    
     width:320px;
     font-size:24px;
     margin-bottom: 0px;
@@ -1001,7 +1001,9 @@ height:32px;
     width:360px;
 
 }
-
+.grocery-button{
+width:138px;
+}
 .groc-button{
     color:#ffffff;
     font-family:normsbold;
@@ -1010,8 +1012,8 @@ height:32px;
     line-height:20px;
     letter-spacing:-0.01px;
     text-align:center;
-    max-width:100%;
-    width:124px;
+
+
     height:40px;
     padding:0px 12px;
     display:flex;
@@ -1118,7 +1120,7 @@ height:32px;
     padding:40px 20px 20px;
     display:flex;
     align-items:center;
-    max-width:300px;
+    
     text-align:center;
     color:#191919ff;
     font-family: normsbold;
@@ -1772,6 +1774,15 @@ display:none;
     span.lasttext{
     overflow: visible;
 }
+.centertext{
+    width:350px;
+}
+.groc-mainhead{
+width: 385px;
+}
+.con-textandbutton{
+    width:355px;
+}
 .footer-images{
     display: flex;
 }
@@ -1847,22 +1858,63 @@ margin-right:-16px;
 }
 }
 
+
 /*--------------MOBILE LARGE-----------------*/
 
 @media screen and (min-width:425px){
-    .buttons{
-        width:401px;
-    }
-    .buttons-lap{
-        display: none;
+.groc-textandbutton{
+height:210px;
+}
+   .t-img-one,.child-image,.child-img,.dash-img{
+    width:385px;
     }
     .centertext{
         width:350px;
         margin-left:38px;
     }
+       .buttons{
+        width:401px;
+    }
+    .buttons-lap{
+        
+        display: none;
+    }
+    .con-image{
+    width:385px;
     
 }
+.con-header{
+width:346.5px;
+}
+.convenience-main{
+height:460px;
+}
+.con-textandbutton{
+width:385.5px;
+}
+.scroll-img{
+width:342.5px;
+}
+.scroll{
+width:342px;
+height:382px;
 
+ }
+ .scroll-textandbutton{
+ width:342.5px;
+ height:198px;
+ }
+ .copyright-medium{
+ display:flex;
+ flex-direction:column;
+ }
+ .copyright{
+ display:none;
+ }
+ .del-location{
+ margin-left:12px;
+ }
+ }
 /*-----------TABLET--------------*/
 @media screen and (min-width:768px){
     *{
@@ -1901,6 +1953,7 @@ margin-right:-16px;
         width:350px;
     
     }
+    
     .p-info{
         margin:0px;
     }
@@ -1933,7 +1986,7 @@ margin-right:-16px;
         display:none;
     }
     .second-containor{
-        width:media68px;
+        width:768px;
         display:flex;
         flex-direction:column;
         align-items: center;
@@ -2008,7 +2061,7 @@ margin-right:-16px;
     margin-top: 20px;
     font-size: 16px;
     height:40px;
-    width:127px;
+    width:auto;
 }
 .dash-button{
     font-size: 16px;
@@ -2200,9 +2253,9 @@ margin-right:-16px;
 }
 .c-header{
     width:324.71px;
-    height:120px;
+    
     font-size:40px ;
-    margin:20px  0px;
+    margin:20px  0px 0px 0px;
     line-height:40px;
 }
 .c-para{
@@ -2218,7 +2271,7 @@ margin-right:-16px;
 }
 .c-button{
     font-size:16px;
-    width:156.25px;
+    margin-top:20px;
     height:40px;
 
 }
@@ -2242,6 +2295,11 @@ margin-right:-16px;
     flex-wrap: wrap;
 
 
+}
+.groc-textandbutton{
+width:550px;
+height:308px;
+margin:149px 0px;
 }
 .footer-containor{
     display: block;
@@ -2319,8 +2377,9 @@ margin-right:-16px;
     margin-right:10px;
     margin-top:0.5px;
 }
-
-
+.tf-button{
+margin-top:30px;
+}
 .end-head{
 display:block;
 text-align:left;
@@ -2364,7 +2423,31 @@ text-align:left;
 .footer-imageslap{
     display:none;
 }
+.groc-mainhead{
+margin-left:30px;
+
 }
+.grocery-textandbutton{
+width:550px;
+height:308px;
+margin:0px 149px;
+}
+.groc-textandbutton{
+margin-left:100px;
+}
+.groc-subhead{
+margin:0px;
+}
+.groc-button{
+margin:0px;
+}
+.scroll-m-head{
+width:500px;
+}
+.dashh-button{
+padding:0px;
+}
+
 /*-------------769------------------*/
 @media screen and (min-width:769px){
     .centertext{
@@ -2424,6 +2507,10 @@ text-align:left;
 .scroll-img{
     width:440px;
     height:440px;
+}
+
+.groc-textandbutton{
+margin-left:200px;
 }
 
 .logotext svg{
@@ -2750,10 +2837,16 @@ text-align:left;
         width:40px;
         height:40px;
     }
+    .groc-textandbutton{
+    margin-left:300px;
+    }
+    .footer-imageslap{
+    transform:translateX(127px);
 }
 @media screen and (min-width:1440px){
     .second-containor{
-        padding:76px 269px;
+        margin:96px 168px;
+        max-width:1184px;
     }
     .footertop-section,.footer-bottom,.root{
         width:1120px;
@@ -2770,7 +2863,15 @@ text-align:left;
 .neighbourhood{
     margin-left:150px;
 }
-
+.groc-textandbutton{
+margin-left:440px;
+}
+.center-section{
+place-content:center;
+}
+.scroll-mainhead{
+width:1440px;
+}
 }
 
 @media screen and (min-width:2560px){
@@ -2778,9 +2879,10 @@ text-align:left;
         width:2532px;
         padding-right:24px;
     }
+    
     .second-containor{
-        padding:96px 728px;
-
+        max-width:1184px;
+        
     }
     .neighbourhood{
         margin-left: 600px;
