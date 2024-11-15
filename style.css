@@ -2843,6 +2843,7 @@ margin-left:200px;
     .footer-imageslap{
     transform:translateX(127px);
 }
+}
 @media screen and (min-width:1440px){
     .second-containor{
         margin:96px 168px;
@@ -2921,4 +2922,4 @@ width:1440px;
         margin-left:500px;
     }
 }
-
+}
