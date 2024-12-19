@@ -1811,6 +1811,7 @@ height:382px;
         width:728px;
         height:504px;
         padding:80px 20px 20px;
+        width:100%;
     }
 .c-header{
     display: inline-block;
@@ -1845,7 +1846,7 @@ height:382px;
     align-self: center;
 }
 .groc-bg{
-    width:768px;
+    width:100%;
     height:600px;
 }
 .convenience-main{
