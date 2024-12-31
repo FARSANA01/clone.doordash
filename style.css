@@ -25,6 +25,7 @@
      box-sizing:border-box;
      margin:0px;
      padding:0px;
+     scrollbar-width: none;
  }
  .top-containor{
     height:64px;
@@ -247,7 +248,6 @@
     justify-content:flex-end;
     gap:8px;
     margin-top:16px;
-    width:744px;
 }
 .logotext{
     margin-left:8px;
@@ -2225,9 +2225,6 @@ padding:0px;
         width:440px;
         height:234px;
     }
-    .buttons-tab{
-        width:936px;
-    }
     .logo svg{
         height:24px;
         width:42px;
@@ -2381,7 +2378,6 @@ margin-left:200px;
         display:flex;
     }
     .buttons-lap{
-        width:1000px;
         padding-right:24px;
         justify-content: flex-end;
         margin-top:16px;
@@ -2532,9 +2528,6 @@ margin-left:200px;
         padding:16px;
         margin:0px;
     }
-    .buttons-lap{
-        width:1160px;
-    }
     .tf-button{
         margin-top:20px;
     }
@@ -2561,9 +2554,6 @@ margin-left:200px;
     .footertop-section,.footer-bottom,.root{
         width:1120px;
         margin-left:140px;
-    }
-    .buttons-lap{
-        width:1416px;
     }
     .three-heads,.city-lists{
         max-width:1130px;
@@ -2616,8 +2606,10 @@ width:1440px;
 }
 @media screen and (min-width:2560px){
     .buttons-lap{
-        width:2532px;
         padding-right:24px;
+    }
+    .t-first-image{
+        width:unset;
     }
     .neighbourhood{
         margin-left: 600px;
